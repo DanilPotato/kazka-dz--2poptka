@@ -1,0 +1,37 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.conteiner{
+  max-width: 910px;
+  margin: 0 auto;
+}
+.header-text {
+  padding-left: 100px;
+}
+.header-text:hover {
+  color:#03A9F4;
+}
+.header {
+  padding-top: 71px;
+  margin: auto;
+  width: 855px;
+}
+.main__img {
+  padding-top: 92px;
+  padding-bottom: 62px;
+}
+.main__text_name {
+  font-family: 'Ubuntu', sans-serif;
+  width: 64px;
+  height: 16px;
+  color: #B4AD9E;
+}
+.main__text_h2 {
+  width: 408px;
+  height: 40px;
+  padding-top: 77px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #626262;
+}
