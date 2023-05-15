@@ -10,6 +10,7 @@ body {
 }
 .header-text:hover {
   color:#03A9F4;
+  cursor: pointer;
 }
 .header {
   padding-top: 71px;
@@ -29,9 +30,18 @@ body {
 .main__text_h2 {
   width: 408px;
   height: 40px;
-  padding-top: 77px;
+  padding-top: 32px;
   font-weight: 400;
   font-size: 30px;
   line-height: 40px;
   color: #626262;
+}
+.lorem {
+  width: 420px;
+  height: 76px;
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  padding-top: 30px;
 }
