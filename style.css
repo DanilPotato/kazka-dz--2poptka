@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 .conteiner{
   max-width: 910px;
@@ -17,17 +17,31 @@ body {
   margin: auto;
   width: 855px;
 }
-.main__img {
+.card-grit{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 910px;
+  margin: 0 auto;
+  justify-content: space-between;
+  row-gap: 130px;
+}
+.card {
   padding-top: 92px;
   padding-bottom: 62px;
 }
-.main__text_name {
+.card-img {
+  width: 420px;
+  height: 280px;
+}
+.card-subtitle {
   font-family: 'Ubuntu', sans-serif;
   width: 64px;
   height: 16px;
+  display: block;
+  padding-top: 62px;
   color: #B4AD9E;
 }
-.main__text_h2 {
+.card-title {
   width: 408px;
   height: 40px;
   padding-top: 32px;
@@ -36,7 +50,7 @@ body {
   line-height: 40px;
   color: #626262;
 }
-.lorem {
+.card-text {
   width: 420px;
   height: 76px;
   display: block;
@@ -44,4 +58,20 @@ body {
   font-size: 14px;
   line-height: 19px;
   padding-top: 30px;
+}
+.btn {
+  font: inherit;
+  background-color: transparent;
+  border: 2px solid #626262;
+  width: 165px;
+  height: 60px;
+  display: block;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 66px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #626262;
+  color: #fff;
 }
